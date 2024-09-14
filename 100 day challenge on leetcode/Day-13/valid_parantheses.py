@@ -1,6 +1,6 @@
 class Solution(object):
     def isValid(self, s):
-        opcl = dict(('()', '[]', '{}')).
+        opcl = dict(('()', '[]', '{}'))
         stack = []
         for idx in s:
             if idx in '([{':
